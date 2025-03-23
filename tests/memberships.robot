@@ -17,7 +17,6 @@ Deve poder realizar uma nova adesão
     Insert Account                 ${data}[account]
 
     SignIn admin
-
     Go to memberships 
     Creat new membership    ${data}
         
@@ -29,4 +28,19 @@ Deve poder realizar uma nova adesão
     Toast should be    Matrícula cadastrada com sucesso.
    
    #Sleep    5
+
+Não deve realizar adesão qduplicada
+    [Tags]        dup
+
+    ${data}    Get Json fixture        memberships        duplicate
+
+    Delete Account By Email        ${data}[account][email]
+    Insert Account                 ${data}[account]
+    Insert Membership
+
+    SignIn admin
+    Go to memberships     
+    Creat new membership    ${data}
+
+    Toast should be    O usuário já possui matrícula.
 

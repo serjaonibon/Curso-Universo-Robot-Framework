@@ -1,106 +1,142 @@
-{"level":30,"time":"2025-03-23T21:11:18.085Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Listening on 65196"}
-(node:24264) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-03-23T22:02:10.041Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Listening on 57941"}
+(node:1708) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-03-23T21:11:18.211Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-03-23T21:11:19.700Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
-{"level":30,"time":"2025-03-23T21:11:19.701Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-03-23T21:11:19.701Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-03-23T21:11:19.713Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-03-23T21:11:19.714Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-03-23T21:11:19.747Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Changed active context"}
-{"level":30,"time":"2025-03-23T21:11:20.142Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Video path: undefined"}
-{"level":30,"time":"2025-03-23T21:11:20.142Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Changed active page"}
-{"level":30,"time":"2025-03-23T21:11:21.303Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method newPage"}
-{"level":30,"time":"2025-03-23T21:11:25.098Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-03-23T21:11:25.212Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method goTo"}
-{"level":30,"time":"2025-03-23T21:11:25.223Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:25.224Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-03-23T21:11:25.299Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:25.308Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:25.308Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-03-23T21:11:25.331Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:25.337Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-23T21:11:25.338Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2025-03-23T21:11:25.404Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
-{"level":30,"time":"2025-03-23T21:11:25.413Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-03-23T21:11:25.414Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
-{"level":30,"time":"2025-03-23T21:11:27.813Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-03-23T21:11:27.823Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-23T21:11:27.823Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
-{"level":30,"time":"2025-03-23T21:11:27.919Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Retrieved text for element css=.logged-user containing sac@smartbit.com"}
-{"level":30,"time":"2025-03-23T21:11:27.919Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-23T21:11:27.946Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-23T21:11:27.946Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=a[href=\"/memberships\"] in page."}
-{"level":30,"time":"2025-03-23T21:11:28.011Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
-{"level":30,"time":"2025-03-23T21:11:28.017Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-03-23T21:11:28.017Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Matrículas in page."}
-{"level":30,"time":"2025-03-23T21:11:28.024Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-03-23T21:11:28.031Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-23T21:11:28.031Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=a[href=\"/memberships/new\"] in page."}
-{"level":30,"time":"2025-03-23T21:11:28.137Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
-{"level":30,"time":"2025-03-23T21:11:28.146Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-03-23T21:11:28.146Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Nova Matrícula in page."}
-{"level":30,"time":"2025-03-23T21:11:28.152Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-03-23T21:11:28.159Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:28.159Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[aria-label=select_account] in page."}
-{"level":30,"time":"2025-03-23T21:11:28.196Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:28.204Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-23T21:11:28.204Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"54446484079\"] in page."}
-{"level":30,"time":"2025-03-23T21:11:29.070Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
-{"level":30,"time":"2025-03-23T21:11:29.079Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.079Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[aria-label=select_plan] in page."}
-{"level":30,"time":"2025-03-23T21:11:29.106Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.116Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-23T21:11:29.116Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=div[class$=option] >> text=Plano Black in page."}
-{"level":30,"time":"2025-03-23T21:11:29.165Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
-{"level":30,"time":"2025-03-23T21:11:29.173Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.173Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_number] in page."}
-{"level":30,"time":"2025-03-23T21:11:29.191Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.196Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.197Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_holder] in page."}
-{"level":30,"time":"2025-03-23T21:11:29.213Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.219Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.219Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_month] in page."}
-{"level":30,"time":"2025-03-23T21:11:29.232Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.239Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.239Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_year] in page."}
-{"level":30,"time":"2025-03-23T21:11:29.254Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.259Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.259Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_cvv] in page."}
-{"level":30,"time":"2025-03-23T21:11:29.272Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-23T21:11:29.279Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-23T21:11:29.279Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=cadastrar in page."}
-{"level":30,"time":"2025-03-23T21:11:29.342Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
-{"level":30,"time":"2025-03-23T21:11:29.353Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-03-23T21:11:29.353Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body in page."}
-{"level":30,"time":"2025-03-23T21:11:30.197Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-03-23T21:11:30.203Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-23T21:11:30.203Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body in page."}
-{"level":30,"time":"2025-03-23T21:11:30.224Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Retrieved text for element css=.Toastify__toast-body containing Matrícula cadastrada com sucesso."}
-{"level":30,"time":"2025-03-23T21:11:30.225Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-23T21:11:30.229Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-03-23T21:11:30.230Z","pid":24264,"hostname":"SERJAO-PESSOAL","Take screenshot with options: ":{"path":"C:\\QAx\\projects\\smartbit-robot\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-03-23T21:11:30.230Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with .Toastify__toast-body in page."}
-{"level":30,"time":"2025-03-23T21:11:30.230Z","pid":24264,"hostname":"SERJAO-PESSOAL","Using selecotr: ":".Toastify__toast-body"}
-{"level":30,"time":"2025-03-23T21:11:31.231Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-03-23T21:11:31.241Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-03-23T21:11:31.241Z","pid":24264,"hostname":"SERJAO-PESSOAL","Take screenshot with options: ":{"path":"C:\\QAx\\projects\\smartbit-robot\\logs\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-03-23T21:11:31.369Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-03-23T21:11:31.378Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.383Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.386Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.388Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.391Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.393Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.399Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.401Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.404Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Changed active context"}
-{"level":30,"time":"2025-03-23T21:11:31.404Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Changing current active page: page=a49cbd25-5174-4724-aff7-c2cde79e4df2"}
-{"level":30,"time":"2025-03-23T21:11:31.404Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Changed active page"}
-{"level":30,"time":"2025-03-23T21:11:31.422Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-03-23T21:11:31.444Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Removed page=235be4f7-2573-4b91-a605-b8415597d286 from context=669fc13b-806b-4d14-b867-0b62713bed55 page stack"}
-{"level":30,"time":"2025-03-23T21:11:31.463Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-03-23T21:11:31.475Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.475Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-23T21:11:31.537Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-03-23T21:11:31.740Z","pid":24264,"hostname":"SERJAO-PESSOAL","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-23T22:02:10.109Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-23T22:02:10.623Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-23T22:02:10.625Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-23T22:02:10.625Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-23T22:02:10.637Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-23T22:02:10.638Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-23T22:02:10.673Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Changed active context"}
+{"level":30,"time":"2025-03-23T22:02:11.163Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-23T22:02:11.164Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Changed active page"}
+{"level":30,"time":"2025-03-23T22:02:12.479Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-23T22:02:16.084Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-03-23T22:02:16.199Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method goTo"}
+{"level":30,"time":"2025-03-23T22:02:16.211Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:16.212Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-03-23T22:02:16.283Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:16.288Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:16.288Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-03-23T22:02:16.310Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:16.320Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:16.322Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2025-03-23T22:02:16.421Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:16.432Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:16.433Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2025-03-23T22:02:18.826Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:18.834Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-23T22:02:18.835Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2025-03-23T22:02:18.873Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Retrieved text for element css=.logged-user containing sac@smartbit.com"}
+{"level":30,"time":"2025-03-23T22:02:18.873Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-23T22:02:18.882Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:18.883Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=a[href=\"/memberships\"] in page."}
+{"level":30,"time":"2025-03-23T22:02:18.958Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:18.968Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:18.968Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Matrículas in page."}
+{"level":30,"time":"2025-03-23T22:02:18.974Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:18.986Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:18.986Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=a[href=\"/memberships/new\"] in page."}
+{"level":30,"time":"2025-03-23T22:02:19.112Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:19.123Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:19.123Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Nova Matrícula in page."}
+{"level":30,"time":"2025-03-23T22:02:19.130Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:19.142Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:19.142Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[aria-label=select_account] in page."}
+{"level":30,"time":"2025-03-23T22:02:19.201Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:19.211Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:19.211Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"24215362008\"] in page."}
+{"level":30,"time":"2025-03-23T22:02:20.091Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:20.098Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.098Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[aria-label=select_plan] in page."}
+{"level":30,"time":"2025-03-23T22:02:20.122Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.130Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:20.130Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=div[class$=option] >> text=Plano Smart in page."}
+{"level":30,"time":"2025-03-23T22:02:20.184Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:20.190Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.190Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_number] in page."}
+{"level":30,"time":"2025-03-23T22:02:20.204Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.211Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.211Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_holder] in page."}
+{"level":30,"time":"2025-03-23T22:02:20.226Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.234Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.235Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_month] in page."}
+{"level":30,"time":"2025-03-23T22:02:20.252Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.259Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.259Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_year] in page."}
+{"level":30,"time":"2025-03-23T22:02:20.277Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.283Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.283Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_cvv] in page."}
+{"level":30,"time":"2025-03-23T22:02:20.300Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:20.304Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:20.304Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=cadastrar in page."}
+{"level":30,"time":"2025-03-23T22:02:20.358Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:28.367Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:28.368Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=a[href=\"/memberships/new\"] in page."}
+{"level":30,"time":"2025-03-23T22:02:28.416Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:28.425Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:28.425Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Nova Matrícula in page."}
+{"level":30,"time":"2025-03-23T22:02:28.430Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:28.437Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.437Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[aria-label=select_account] in page."}
+{"level":30,"time":"2025-03-23T22:02:28.455Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.464Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:28.465Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"24215362008\"] in page."}
+{"level":30,"time":"2025-03-23T22:02:28.836Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:28.842Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.842Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[aria-label=select_plan] in page."}
+{"level":30,"time":"2025-03-23T22:02:28.862Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.867Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:28.867Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=div[class$=option] >> text=Plano Smart in page."}
+{"level":30,"time":"2025-03-23T22:02:28.922Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:28.928Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.929Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_number] in page."}
+{"level":30,"time":"2025-03-23T22:02:28.944Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.951Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.951Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_holder] in page."}
+{"level":30,"time":"2025-03-23T22:02:28.966Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.975Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.975Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_month] in page."}
+{"level":30,"time":"2025-03-23T22:02:28.991Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.999Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:28.999Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_year] in page."}
+{"level":30,"time":"2025-03-23T22:02:29.016Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:29.023Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:29.023Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=card_cvv] in page."}
+{"level":30,"time":"2025-03-23T22:02:29.038Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-23T22:02:29.044Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-23T22:02:29.044Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=cadastrar in page."}
+{"level":30,"time":"2025-03-23T22:02:29.094Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-23T22:02:29.105Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:29.105Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body in page."}
+{"level":30,"time":"2025-03-23T22:02:29.424Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-23T22:02:29.428Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-23T22:02:29.428Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body in page."}
+{"level":30,"time":"2025-03-23T22:02:29.448Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Retrieved text for element css=.Toastify__toast-body containing O usuário já possui matrícula."}
+{"level":30,"time":"2025-03-23T22:02:29.448Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-23T22:02:29.453Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-23T22:02:29.454Z","pid":1708,"hostname":"SERJAO-PESSOAL","Take screenshot with options: ":{"path":"C:\\QAx\\projects\\smartbit-robot\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-23T22:02:29.454Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with .Toastify__toast-body in page."}
+{"level":30,"time":"2025-03-23T22:02:29.454Z","pid":1708,"hostname":"SERJAO-PESSOAL","Using selecotr: ":".Toastify__toast-body"}
+{"level":30,"time":"2025-03-23T22:02:30.443Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-23T22:02:30.450Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-23T22:02:30.451Z","pid":1708,"hostname":"SERJAO-PESSOAL","Take screenshot with options: ":{"path":"C:\\QAx\\projects\\smartbit-robot\\logs\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-23T22:02:30.645Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-23T22:02:30.658Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.665Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.668Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.672Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.677Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.680Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.686Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.691Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.696Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Changed active context"}
+{"level":30,"time":"2025-03-23T22:02:30.696Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Changing current active page: page=4146c62d-bcec-4781-bb9d-a85b4da6807c"}
+{"level":30,"time":"2025-03-23T22:02:30.696Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Changed active page"}
+{"level":30,"time":"2025-03-23T22:02:30.704Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-03-23T22:02:30.734Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Removed page=512b8d27-3362-426d-a1e2-62bcf38a4e8d from context=36fc9ed6-b5a5-4589-b08d-b7733f00de0e page stack"}
+{"level":30,"time":"2025-03-23T22:02:30.767Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-03-23T22:02:30.796Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.796Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-23T22:02:30.884Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-23T22:02:31.162Z","pid":1708,"hostname":"SERJAO-PESSOAL","msg":"End of node method closeAllBrowsers"}
