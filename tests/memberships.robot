@@ -18,13 +18,11 @@ Deve poder realizar uma nova adesão
 
     SignIn admin
     Go to memberships 
-    Creat new membership    ${data}
-        
+    Creat new membership    ${data}        
     #Isso foi utilizado para na hora de gerar o log, 
     # trazer uma informação que é oculta
     # ${html}    Get Page Source
-    # Log    ${html} 
-
+    # Log    ${html}
     Toast should be    Matrícula cadastrada com sucesso.
    
    #Sleep    5
@@ -40,4 +38,20 @@ Não deve realizar adesão qduplicada
     Go to memberships     
     Creat new membership    ${data}
     Toast should be    O usuário já possui matrícula.
+
+Deve buscar por nome
+    [Tags]        search
+
+    ${name}            Set Variable        Emily Stone
+
+    SignIn admin
+    Go to memberships
+    Search by name          ${name}
+    Shold filter by name    ${name}
+
+    
+
+
+
+
 
