@@ -1,32 +1,41 @@
 {
-    "create": {
-        "account": {
-            "name": "Paulo Cintura",
-            "email": "paulocintura@msn.com",
-            "cpf": "54446484079"
-        },
-        "plan": "Plano Black",
-        "credit_card": {
-            "number": "4242424242424242",
-            "holder": "Paulo Cintura",
-            "month": "12",
-            "year": "2030",
-            "cvv": "123"
-        }
+  "create": {
+    "account": {
+      "name": "Paulo Cintura",
+      "email": "paulocintura@msn.com",
+      "cpf": "54446484079"
     },
-    "duplicate": {
-        "account": {
-            "name": "Jonas Brothers",
-            "email": "jonas@brothers.com",
-            "cpf": "24215362008"
-        },
-        "plan": "Plano Smart",
-        "credit_card": {
-            "number": "4242424242424242",
-            "holder": "Jonas Brothers",
-            "month": "12",
-            "year": "2030",
-            "cvv": "123"
-        }
+    "plan": {
+      "name": "Plano Black",
+      "id": "2",
+      "price": 79.99
+
+    },
+    "credit_card": {
+      "number": "4242424242424242",
+      "holder": "Paulo Cintura",
+      "month": "12",
+      "year": "2030",
+      "cvv": "123"
     }
+  },
+  "duplicate": {
+    "account": {
+      "name": "Jonas Brothers",
+      "email": "jonas@brothers.com",
+      "cpf": "24215362008"
+    },
+    "plan": {
+      "name": "Plano Smart",
+      "id": "1",
+      "price": 99.99
+    },
+    "credit_card": {
+      "number": "4242424242424242",
+      "holder": "Jonas Brothers",
+      "month": "12",
+      "year": "2030",
+      "cvv": "123"
+    }
+  }
 }
