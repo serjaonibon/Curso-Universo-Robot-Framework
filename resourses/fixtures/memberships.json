@@ -1,0 +1,17 @@
+{
+    "create": {
+        "account": {
+            "name": "Paulo Cintura",
+            "email": "paulocintura@msn.com",
+            "cpf": "54446484079"
+        },
+        "plan": "Plano Black",
+        "credit_card": {
+            "number": "4242424242424242",
+            "holder": "Paulo Cintura",
+            "month": "12",
+            "year": "2030",
+            "cvv": "123"
+        }
+    }
+}
