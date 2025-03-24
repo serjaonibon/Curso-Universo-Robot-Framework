@@ -34,7 +34,7 @@ Get Json fixture
     [Arguments]        ${file_name}    ${scenario}
 
     ${data}    Load Json From File    
-    ...        C:/QAx/projects/smartbit-robot/resourses/fixtures/${file_name}.json
+    ...        ${EXECDIR}/resourses/fixtures/${file_name}.json
     ...    encoding=utf-8
     
     
