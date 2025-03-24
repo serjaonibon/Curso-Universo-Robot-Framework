@@ -42,15 +42,35 @@ Não deve realizar adesão qduplicada
 Deve buscar por nome
     [Tags]        search
 
-    ${name}            Set Variable        Emily Stone
+    ${data}    Get Json fixture    memberships    search
+
+
+    Insert Membership    ${data}
 
     SignIn admin
     Go to memberships
-    Search by name          ${name}
-    Shold filter by name    ${name}
+    Search by name          ${data}[account][name]
+    Shold filter by name    ${data}[account][name]
+
+Deve excluir uma matrícula 
+    [Tags]    remove   
+
+    ${data}    Get Json fixture    memberships    remove
+
+
+    Insert Membership    ${data}
+
+    SignIn admin
+    Go to memberships
+    Request remove    ${data}[account][name]
+    Confirm removal
+    Membership should not be visible    ${data}[account][name]
+
 
     
 
+
+    
 
 
 

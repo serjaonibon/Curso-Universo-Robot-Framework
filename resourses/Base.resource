@@ -16,6 +16,7 @@ Resource            pages/Memberships.resource
 Resource            pages/Components/Navbar.resource
 Resource            pages/Components/Toast.resource
 Resource            pages/Components/BoxNotice.resource
+Resource            pages/Components/Modal.resource
 
 *** Variables ***
 ${ADMIN_EMAIL}        sac@smartbit.com    
